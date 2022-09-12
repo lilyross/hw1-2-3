@@ -1,0 +1,53 @@
+public class Main {
+    public static void main(String[] args) {
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+        var dog1 = 8.0;
+        dog1 = dog1 - 3.5;
+        System.out.println(dog1);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
+        var friend = 19.0;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7.0;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10.0;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+        var weightOfOneBoxer = 78.2;
+        var weightOfTheSecondBoxer = 82.7;
+        var totalWeightOfTwoFighters = weightOfOneBoxer + weightOfTheSecondBoxer;
+        System.out.println("Общий вес двух бойцов " + totalWeightOfTwoFighters + "кг ");
+        var theDifferenceInTheWeightOfAthletes = weightOfOneBoxer - weightOfTheSecondBoxer;
+        System.out.println("Разница в весе спортсменов " + theDifferenceInTheWeightOfAthletes + "кг ");
+        var theDifferenceInWeightBy = (weightOfTheSecondBoxer) % weightOfOneBoxer;
+        System.out.println("Разница в весе на " + theDifferenceInWeightBy + "кг ");
+        var totalHours = 640.0;
+        var forEachEmploye = 8;
+        var totalEmployeesInTheCompany = (totalHours) / forEachEmploye;
+        System.out.println("Всего работников в компании " + totalEmployeesInTheCompany + " человек ");
+        totalEmployeesInTheCompany = totalEmployeesInTheCompany + 94;
+        System.out.println("Если в компании работает " + totalEmployeesInTheCompany + " человек ");
+        var hoursOfWorkPerEmployee = forEachEmploye * totalEmployeesInTheCompany;
+        System.out.println("То всего " + hoursOfWorkPerEmployee + " часов работы на сотрудников ") ;
+    }
+}
